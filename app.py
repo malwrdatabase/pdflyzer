@@ -10,7 +10,7 @@ import hashlib
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
-app.config['VT_API_KEY'] = '34a02c17ba43fb6e255ebd96d97d60863f88faace5c2aab1928e7c77304c1477'  # Your VirusTotal API key
+app.config['VT_API_KEY'] = ''  # Your VirusTotal API key
 
 # Descriptions for PDF keywords
 DESCRIPTIONS = {
